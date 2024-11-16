@@ -15,9 +15,7 @@
                 $pdo->query("drop table if exists Secret");
                 
                 $pdo->query("create table Secret (
-                        SecretId integer not null PRIMARY KEY AUTO_INCREMENT,
-                        Description varchar(255) not null,
-                        Tags varchar(255) not null,
+                       
                         Code varchar(20) not null,
                         SecretLevelId integer not null
                     )");
