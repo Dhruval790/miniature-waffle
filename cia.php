@@ -56,7 +56,7 @@
             
             
             //TODO: Use SQL to get data from database here.
-            $stmt=$pdo->doSQL("");
+       
             
             
             while($row=$stmt->fetch(PDO::FETCH_ASSOC))
